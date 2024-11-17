@@ -57,6 +57,10 @@ body {
   /*demas propiedades en reset*/
 }
 
+main{
+  overflow-x: hidden;
+}
+
 /*section header*/
 
 .header {
@@ -130,7 +134,8 @@ body {
   height: 40px;
   border: none;
   width: 40px;
-}
+ }
+
 
 /*Section presentation*/
 .presentation {
