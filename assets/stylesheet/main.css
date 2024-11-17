@@ -8,13 +8,6 @@
   --color-turquise: #34B0BE;
   --color--richBlack: #373850;
 
-  /* theme ligth */
-  --color-black: #000000;
-  --color-white: #FFFFFF;
-  --color-lightSlateBlue: #bee7e5;
-  --color-ghostwhite: #f1f1f5;
-  --color-ligthIvory: #F1F1E6;
-
   /* Pesos de fuente */
   --font-weight-normal: 400;
   --font-weight-semibold: 600;
@@ -25,27 +18,6 @@
   --spacing-md: 16px;
   --spacing-lg: 24px;
   --spacing-xl: 32px;
-}
-
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --color-charcoal: var(--color-lightSlateBlue);
-    --color-white: var(--color-black);
-    --color-ligthGray: var(--color-ligthIvory);
-    --color-turquise: var(--color-black);
-    --color--richBlack: var(--color-ghostwhite);
-  }
-
-  #button__nav {
-    background: url("../icons/menu-dark.svg") !important;
-    background-repeat: no-repeat !important;
-    object-fit: cover;
-  }
-
-  .presentation_brands img {
-    border: 1px solid rgba(153, 153, 153, 0.185);
-  }
 }
 
 
