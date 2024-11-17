@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portafolio de Jorge - Demostración de habilidades en diseño UX/UI y marketing digital.">
+  <meta name="keywords" content="Jorge, desarrollador web, UX/UI, marketing, portafolio, proyectos web, diseñador">
+  <meta name="author" content="Jorge Pérez">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="Spanish">
+  <meta name="rating" content="General">
+  <meta property="og:title" content="Portafolio de Jorge Pérez">
+  <meta property="og:description" content="Explora mis proyectos en diseño UX/UI, marketing y desarrollo web.">
+  <meta property="og:image" content="https://res.cloudinary.com/dukxiqmc7/image/upload/v1731805754/seoImg_v5doot.webp">
+  <meta property="og:url" content="https://tusitio.com">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="./assets/images/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/stylesheet/reset.css">
+  <link rel="stylesheet" href="assets/stylesheet/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Jorge perez</title>
+</head>
+
+<body>
+  <!-- section heeader -->
+  <header class="header">
+    <div class="header__resalt">
+      <button id="button__nav"></button>
+    </div>
+    <nav class="header_navigation">
+      <ul>
+        <li><a href="#section_presentation">Inicio</a></li>
+        <li><a href="#section_services">Servicios</a></li>
+        <li><a href="#section_aboutme">Acerca de mi</a></li>
+        <li><a href="#section_skills">Mis habilidades</a></li>
+        <li><a href="#section_proyects">Mis proyectos</a></li>
+        <li><a href="#section_contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- section presentation -->
+    <section class="presentation" id="section_presentation">
+      <figure>
+        <img id="personal_photo" src="assets/images/photo mobile.webp" alt="foto personal de jorge">
+      </figure>
+
+      <article class="presentation_profile">
+        <div class="presentation_name-mobile">
+          <h1>Soy <span>Jorge</span></h1>
+          <hr>
+        </div>
+        <div class="presentation_name-desktop">
+          <h1>Soy
+            <hr>
+            <span>Jorge</span>
+          </h1>
+        </div>
+        <p>Marketing y diseñador UX/UI</p>
+        <br>
+        <p><span>3 años</span> experiencia</p>
+        <div class="presentation_socialIcons">
+          <img src="assets/icons/icon-linkedin.webp" alt="logo linkedin">
+          <img src="assets/icons/icon-instagram.webp" alt="logo instagram">
+          <img src="assets/icons/icon-github.webp" alt="logo github">
+        </div>
+      </article>
+
+      <div class="presentation_brands">
+        <img src="assets/icons/google.svg" alt="logo google">
+        <img src="assets/icons/amazon.svg" alt="logo amazon">
+        <img src="assets/icons/spotify.svg" alt="logo spotify">
+      </div>
+    </section>
+
+    <!-- Section about me -->
+    <section data-aos="fade-up" class="aboutme" id="section_aboutme">
+      <h2>Acerca de mi</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, velit molestiae odio autem ab laboriosam aliquam
+        quaerat accusantium expedita cumque repudiandae veritatis quos ut? Ad aut praesentium dignissimos cum quas?
+        <span>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus veniam illo reprehenderit, nihil nisi nemo,
+          ipsum atque doloremque soluta unde provident blanditiis iure optio
+        </span>
+      </p>
+    </section>
+
+    <!-- section  services -->
+    <section class="services" id="section_services">
+      <h2>Servicios</h2>
+      <div class="services_cards">
+        <article  data-aos-duration="1000"  data-aos="flip-left">
+          <img src="assets/vectores/Ellipse 14.svg" alt="vector eclipse">
+          <figure>
+            <img src="assets/icons/pencil.svg" alt="figure pencil">
+          </figure>
+          <h2>ux/ui Design</h2>
+          <p>
+            Desde el diseño hasta implementacion del desarollo
+          </p>
+        </article>
+        <article  data-aos-duration="1000"  data-aos="flip-left">
+          <img src="assets/vectores/Ellipse 14.svg" alt="vector eclipse">
+          <figure>
+            <img src="assets/icons/speaker.svg" alt="figure speaker">
+          </figure>
+          <h2>Marketing</h2>
+          <p>
+            Desde el diseño hasta implementacion del desarollo
+          </p>
+        </article>
+        <article  data-aos-duration="1000"  data-aos="flip-left">
+          <img src="assets/vectores/Ellipse 14.svg" alt="vector eclipse">
+          <figure>
+            <img src="assets/icons/search.svg" alt="figure search">
+          </figure>
+          <h2>Research</h2>
+          <p>
+            Desde el diseño hasta implementacion del desarollo
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section skills -->
+
+    <section class="skills" id="section_skills">
+      <h2>Mis habilidades</h2>
+      <div data-aos-duration="1000"  data-aos="fade-right">
+        <div>
+          <p>Marketing</p>
+          <p>80%</p>
+        </div>
+        <input class="skill-level-1" type="range" disabled>
+      </div>
+      <div  data-aos-duration="1000"  data-aos="fade-left">
+        <div>
+          <p>ux/ui Design</p>
+          <p>95%</p>
+        </div>
+        <input class="skill-level-2" type="range" disabled>
+      </div>
+      <div  data-aos-duration="1000"  data-aos="fade-right">
+        <div>
+          <p>Research</p>
+          <p>90%</p>
+        </div>
+        <input class="skill-level-3" type="range" disabled>
+      </div>
+    </section>
+
+    <!-- proyects -->
+
+    <section data-aos="fade-up" data-aos-duration="3000" class="proyects" id="section_proyects">
+      <h2>Mis proyectos</h2>
+      <div class="proyects-container">
+        <figure>
+          <img src="assets/images/proyect-1.webp" alt="">
+          <img src="assets/images/proyect-2.webp" alt="">
+          <img src="assets/images/proyect-3.webp" alt="">
+        </figure>
+      </div>
+    </section>
+
+    <!-- contact-->
+
+    <section class="contact" id="section_contact">
+      <h2>Contacto</h2>
+      <div>
+        <article data-aos="fade-right">
+          <img src="assets/vectores/Ellipse 14.svg" alt="vector ellipse">
+          <figure>
+            <img src="assets/icons/phone.svg" alt="icon phone">
+          </figure>
+          <p>Numero de Celular</p>
+          <p>5523652412</p>
+        </article>
+
+        <article data-aos="fade-left">
+          <img src="assets/vectores/Ellipse 14.svg" alt="vector ellipse">
+          <figure>
+            <img src="assets/icons/mail.svg" alt="icon mail">
+          </figure>
+          <p>Email</p>
+          <p>Ejmplo@correo.com</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="description">Gracias por visitar mi portafolio. Conéctate conmigo en redes sociales:</p>
+      <ul class="social-links">
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+      </ul>
+      <p class="copyright">
+        &copy; <span id="year"></span> Jorge Pérez. Todos los derechos reservados.
+      </p>
+    </div>
+  </footer>
+  </main>
+  <script src="app.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
